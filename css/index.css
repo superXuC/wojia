@@ -1,0 +1,95 @@
+.navbar{
+    background-color: #0f0f0f;
+}
+.navbar-toggle{
+    background-color: #f26f21;
+}
+.search{
+    margin-top: 8px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+}
+.glyphicon{
+    color: #ffffff;
+    font-size: 20px;
+}
+.badge{
+    background-color: red;
+}
+.img-circle{
+    display: block;
+    max-width: 30px;
+    max-height: 30px;
+}
+.navbar-header a{
+    display: inline-block;
+}
+.search{
+    display: inline-block;
+    width: 500px;
+}
+.nameBox{
+    display: inline-block;
+    color: #ffffff;
+}
+.nameBox p{
+    margin:0;
+}
+.left-nav{
+    background-color: #28292b;
+    min-height: 100%;
+    color: #ffffff;
+}
+.active{
+    background-color: #3a3e41;
+}
+.content{
+    background-color: #efefef;
+}
+.content a{
+    color: #ffffff;
+}
+#myTab a{
+    color: #000000;
+}
+.glyphicon-remove-sign{
+    font-size: 10px;
+    color: grey;
+}
+#myTab{
+    border-bottom:  2px solid #f36e23;
+}
+#myTab .active{
+    border: none;
+    background-color: #fbfbf9;
+}
+.right-content{
+    padding-left: 0;
+}
+.mg-t-0{
+    margin-top: 0;
+}
+.title{
+    background-color: #f36e23;
+}
+.rborder{
+    border-left: 5px solid #f36e23;
+    background-color: #3a3e41;
+}
+#creat{
+    background-color: #398439;
+    height: 90px;
+}
+.glyphicon-off{
+    color: grey;
+    font-size: 10px;
+}
+.closeBtn{
+    display: inline-block;
+    font-weight: 700;
+    color: #444e69;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+    padding: 10px 16px;
+    background-color: #ffffff;
+}
