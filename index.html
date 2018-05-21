@@ -48,7 +48,7 @@
     <div class="right-content col-md-9">
         <ul id="myTab" class="nav nav-tabs">
             <li>
-            <li><a class="title">首页</span></a></li>
+            <li><p class="title">首页</span></p></li>
             </li>
             <li><a data-toggle="tab" class="active" href="#creat">创建小区 <span class="glyphicon glyphicon-remove-sign pageClose"></span></a></li>
             <a class="pull-right closeBtn"><span class="glyphicon glyphicon-off"></span>退出</a>
@@ -72,6 +72,7 @@
         var _index = $(this).index();
         $('.navBtn').eq(_index).addClass("rborder").siblings().removeClass("rborder");
     })
+
     var headerHeight=$('.navbar-header').height()
     console.log(headerHeight)
     $('.content').css("margin-top",headerHeight)
@@ -80,13 +81,14 @@
     })
     $(".pageClose").click(function () {
         var i=$(this).index();
-        $('#myTab .active').hide()
+        $('.nav-tabs li a').hide()
         $('#myTabContent .tab-pane').eq(i).hide()
     })
     $('#dashboard-menu li').click(function () {
         var navi=$(this).index();
         console.log(navi)
-        $('#myTab li').eq(navi).show()
+        $('.nav-tabs li a').eq(navi).show()
+        $('#myTabContent .tab-pane').eq(navi).show()
     })
 
 </script>
