@@ -71,6 +71,14 @@
 }
 .title{
     background-color: #f36e23;
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: 0;
 }
 .rborder{
     border-left: 5px solid #f36e23;
