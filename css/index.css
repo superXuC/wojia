@@ -1,5 +1,6 @@
 .navbar{
     background-color: #0f0f0f;
+    border: none;
 }
 .navbar-toggle{
     background-color: #f26f21;
@@ -111,4 +112,12 @@ display: none
 .card-body{
     background-color: #ffffff;
     color: pink;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .search{
+        display: none;
+    }
 }
